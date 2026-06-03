@@ -91,6 +91,7 @@ sim_4_rect_1_rect = pygame.Rect(60, WINDOW_HEIGHT - sim_4_rect_1_size, sim_4_rec
 sim_4_rect_2_rect = pygame.Rect(WINDOW_WIDTH - sim_4_rect_2_size - 60, WINDOW_HEIGHT - sim_4_rect_2_size, sim_4_rect_2_size, sim_4_rect_2_size)
 sim_4_rect_1_vel = 10
 sim_4_rect_2_vel = -5
+sim_4_friction = 0.998
 
 #---------sim_5_vars-------
 sim_5_big_circle_radius = 270
@@ -99,7 +100,7 @@ sim_5_num_balls = 400
 sim_5_launch_vel = 3
 for i in range(sim_5_num_balls):
     sim_5_balls.append({"x": WINDOW_WIDTH / 2 - sim_5_num_balls / 2 + i, "y": 100, "vert_vel": sim_5_launch_vel, "hor_vel": 0, "color": random.choice([(255,0,0), (0,0,255)]), "bounced": False, "bounce_timer": 0})
-sim_5_small_radius = 2
+sim_5_small_radius = 4
 
 #---------sim_6_vars-------
 sim_6_circle_radius = 13
@@ -376,6 +377,9 @@ def sim_4():
         sim_4_rect_1_vel = 0.0001
     if sim_4_rect_2_vel == 0:
         sim_4_rect_2_vel = 0.0001
+
+    sim_4_rect_1_vel *= sim_4_friction
+    sim_4_rect_2_vel *= sim_4_friction
 
     #print(sim_4_rect_1_vel)
     #print(sim_4_rect_2_vel)
