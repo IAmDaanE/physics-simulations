@@ -14,12 +14,12 @@ pygame.display.set_caption("Physics Simulation")
 clock = pygame.time.Clock()
 
 #-----------images----------
-sim_1_img = pygame.transform.scale_by(pygame.image.load("sim_1_icon.png"), 0.2)
-sim_2_img = pygame.transform.scale_by(pygame.image.load("sim_2_icon.png"), 0.195)
-sim_3_img = pygame.transform.scale_by(pygame.image.load("sim_3_icon.png"), 0.193)
-sim_4_img = pygame.transform.scale_by(pygame.image.load("sim_4_icon.png"), 0.199)
-sim_5_img = pygame.transform.scale_by(pygame.image.load("sim_5_icon.png"), 0.2)
-sim_6_img = pygame.transform.scale_by(pygame.image.load("sim_6_icon.png"), 0.2)
+sim_1_img = pygame.transform.scale_by(pygame.image.load("icons/sim_1_icon.png"), 0.2)
+sim_2_img = pygame.transform.scale_by(pygame.image.load("icons/sim_2_icon.png"), 0.195)
+sim_3_img = pygame.transform.scale_by(pygame.image.load("icons/sim_3_icon.png"), 0.193)
+sim_4_img = pygame.transform.scale_by(pygame.image.load("icons/sim_4_icon.png"), 0.199)
+sim_5_img = pygame.transform.scale_by(pygame.image.load("icons/sim_5_icon.png"), 0.2)
+sim_6_img = pygame.transform.scale_by(pygame.image.load("icons/sim_6_icon.png"), 0.2)
 
 #--------general_vars--------
 running = True
