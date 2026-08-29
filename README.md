@@ -2,6 +2,10 @@
 
 A lightweight python physics sandbox / engine to experiment with physics in coding and game development. Visualized with pygame.
 
+---
+
+<img width="1184" height="711" alt="image" src="https://github.com/user-attachments/assets/bd7fbdf7-b6b3-478c-aee8-0e10b34112ce" />
+
 ## Getting Started
 
 ### Getting the Source
