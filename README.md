@@ -2,6 +2,10 @@
 
 A lightweight python physics sandbox / engine to experiment with physics in coding and game development. Contains just a bouncing ball, a lot of bouncing balls, a lot of balls colliding with eachother, 2 cubes with different masses and sizes colliding with eachother and the three body problem with 3 planets floating around and influencing eachother with gravity. Visualized with pygame.
 
+---
+
+<img width="1196" height="708" alt="Schermafbeelding 2026-08-29 174312" src="https://github.com/user-attachments/assets/554d4040-3454-4f8c-8d8a-d2b7b742edb2" />
+
 ## Getting Started
 
 ### Getting the Source
