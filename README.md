@@ -1,10 +1,6 @@
-# 6 Visual Physics Simulations
+# 6 Visual Physics simulations
 
-A lightweight python physics sandbox / engine to experiment with physics in coding and game development. Visualized with pygame.
-
----
-
-<img width="1184" height="711" alt="image" src="https://github.com/user-attachments/assets/bd7fbdf7-b6b3-478c-aee8-0e10b34112ce" />
+A lightweight python physics sandbox / engine to experiment with physics in coding and game development. Contains just a bouncing ball, a lot of bouncing balls, a lot of balls colliding with eachother, 2 cubes with different masses and sizes colliding with eachother and the three body problem with 3 planets floating around and influencing eachother with gravity. Visualized with pygame.
 
 ## Getting Started
 
@@ -27,12 +23,12 @@ Requirements: You must have Python 3.6 or higher.
     ```
 4. Run the program.
     ```
-    python physics_simulations.py
+    python src/main.py
     ```
 
 ### Usage
 
-When starting the program there are six tiles you can click on to start that simulation, when you want to try another one close the window and rerun the file.
+When starting the program there are six tiles you can click on to start that simulation. Press `B` during a simulation to go back to the homescreen.
 
 ## License
 
