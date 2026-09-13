@@ -1,6 +1,6 @@
 # 6 Visual Physics simulations
 
-A lightweight python physics sandbox / engine to experiment with physics in coding and game development. Vizualized with pygame.
+A lightweight python physics sandbox / engine to experiment with physics in coding and game development. Vizualized with pygame.  
 Contains:
 *  a bouncing ball
 *  a bunch of bouncing balls
