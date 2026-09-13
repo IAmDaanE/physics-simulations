@@ -1,6 +1,12 @@
 # 6 Visual Physics simulations
 
-A lightweight python physics sandbox / engine to experiment with physics in coding and game development. Contains just a bouncing ball, a lot of bouncing balls, a lot of balls colliding with eachother, 2 cubes with different masses and sizes colliding with eachother and the three body problem with 3 planets floating around and influencing eachother with gravity. Visualized with pygame.
+A lightweight python physics sandbox / engine to experiment with physics in coding and game development. Vizualized with pygame.
+Contains:
+*  a bouncing ball
+*  a bunch of bouncing balls
+*  a bunch of floating balls colliding with eachother
+*  2 cubes with different masses and sizes sliding and colliding with eachother
+*  the three body problem with 3 planets floating around and influencing eachother with gravity.
 
 ---
 
