@@ -7,6 +7,7 @@ Contains:
 *  a bunch of bouncing balls
 *  a bunch of floating balls colliding with eachother
 *  2 cubes with different masses and sizes sliding and colliding with eachother
+*  a row of balls bouncing of a curve
 *  the three body problem with 3 planets floating around and influencing eachother with gravity.
 
 ---
