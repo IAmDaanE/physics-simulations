@@ -16,24 +16,16 @@ Contains:
 
 ## Getting Started
 
-### Getting the Source
+### Starting the Program
 
-This project is [hosted on GitHub](https://github.com/IAmDaanE/physics-simulations). You can download the zip or clone this project directly using this command:
+**Requires:** Python 3.9 - 3.14
+1. Install the required libraries, preferably in a venv.
 
-```
-git clone git@github.com:IAmDaanE/physics-simulations.git
-```
-
-### Running the Program
-
-Requirements: You must have Python 3.6 or higher.
-1. Clone the repository or download the zip and unpack it to your directory of choice.
-2. Navigate to that directory in a terminal.
-3. In a venv or the global python version install the needed libraries.
     ```
     pip install -r requirements.txt
     ```
-4. Run the program.
+2. Run the program.
+
     ```
     python src/main.py
     ```
